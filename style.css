@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1d1d1d;
+}
+
+main {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-el {
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.list h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+li span {
+    flex: 1;
+    cursor: pointer;
+}
+
+.completed-task {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete, .edit {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete {
+    background-color: darkred;
+}
+
+.edit {
+    background-color: darkorange;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
